@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.head {
+    background-image: url(netflix_assets/Backgroundimg.jpg);
+    background-size: max(1200px, 100vw);
+    background-position: center center top;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    /* background-color: aqua; */
+    max-width: 60vw;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 150px;
+    color: red;
+    position: relative;
+    z-index: 20;
+}
+
+.lang {
+    /* border: 1px solid white; */
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .select {
+    position: relative;
+    z-index: 20;
+    height: 32px;
+    width: 201px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(236, 236, 236);
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.select option {
+    color: black;
+}
+
+nav button {
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    height: 32px;
+    width: 88px;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.head .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    /* border: 1px solid white; */
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    padding: 0px 30px;
+}
+
+.hero :first-child {
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(4) {
+    font-size: 24px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    height: 56px;
+    width: 363px;
+    border-radius: 5px;
+}
+
+.line {
+    height: 8px;
+    background-color: #232323;
+    position: relative;
+    z-index: 40;
+}
+
+
+
+/* ----------- Header 👆🏼 ----------- */
+
+
+.secfirst {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secfirst .imgdiv {
+    position: relative;
+}
+
+.secfirst .imgdiv img {
+    width: 540px;
+    position: relative;
+    z-index: 20;
+}
+
+.secfirst video {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    /* width: 540px; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+.text :first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text :last-child {
+    font-size: 24px;
+
+}
+
+
+
+/* ----------- ad section 👆🏼 ----------- */
+
+
+.faq {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.faq h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.faq .faqbox {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2D2D2D;
+    /* width: 60vw; */
+    width: 60%;
+    margin: 5px auto;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: all 0s ease-out 0s;
+}
+
+.faq .faqans {
+    margin: auto;
+    width: 60%;
+    color: white;
+    background-color: #2D2D2D;
+    font-size: 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.faqans p {
+    padding: 12px 22px;
+}
+
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faq .buttonbox {
+    margin: 30px auto;
+}
+
+.faq .faqbtn {
+    font-size: 24px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    height: 56px;
+    width: 363px;
+    border-radius: 5px;
+}
+
+
+/* ----------- Faq section 👆🏼 ----------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerabout {
+    height: 350px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: white;
+    /* border: 1px solid white; */
+}
+
+ul {
+    margin-top: 55px;
+}
+
+ul p {
+    font-size: 20px;
+}
+
+.footerabout ul a {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #B3B3B3;
+}
+
+.footerabout ul .calls {
+    font-size: 16px;
+}
+
+.footerabout ul .select {
+    position: relative;
+    z-index: 20;
+    height: 32px;
+    width: 201px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(236, 236, 236);
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.footerabout .ul2 {
+    margin-top: 100px;
+}
